@@ -1,6 +1,6 @@
 '''
 This bot returns an AI generated macro from Inspirobot.me. 
-Just message "!reasons" to receive your reason to keep on keeping on
+Just message "$reasons" to receive your reason to keep on keeping on.
 '''
 
 import discord

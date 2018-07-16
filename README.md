@@ -12,7 +12,7 @@ pip install -U https://github.com/Rapptz/discord.py/archive/rewrite.zip
 Head over to https://discordapp.com/developers/applications/me and create a new app. <br />
 Click on "Create Bot User". <br />
 Once done, you can get the secret bot token. <br />
-In reason.py replace all <...> with appropriate information. <br />
+In reasons.py replace all <...> with appropriate information. <br />
 
 To start bot, run:
 ```

@@ -49,7 +49,7 @@ async def info(ctx):
     # give users a link to invite this bot to their server
     embed.add_field(name='Invite', 
         value='https://discordapp.com/oauth2/authorize?client_id=' + 
-              '<YOUR_BOT_CLIENT_ID_GOES_HERE>')
+              '<YOUR_BOT_CLIENT_ID_GOES_HERE>&scope=bot')
 
     await ctx.send(embed=embed)
 

@@ -12,6 +12,7 @@ pip install -U https://github.com/Rapptz/discord.py/archive/rewrite.zip
 Head over to https://discordapp.com/developers/applications/me and create a new app. <br />
 Click on "Create Bot User". <br />
 Once done, you can get the secret bot token. <br />
+
 In reasons.py replace all <...> with appropriate information. <br />
 
 To start bot, run:
@@ -19,7 +20,7 @@ To start bot, run:
 python reasons.py
 ```
 To add bot to server add your CLIENT_ID to this URL and visit in browser:  <br />
-https://discordapp.com/oauth2/authorize?client_id=<YOUR_BOT_CLIENT_ID_GOES_HERE> <br />
+"https://discordapp.com/oauth2/authorize?client_id=<YOUR_BOT_CLIENT_ID_GOES_HERE>&scope=bot" <br />
 
 ## Usage
 When bot is active in server, just type "$reason".

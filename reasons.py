@@ -1,6 +1,6 @@
 '''
 This bot returns an AI generated macro from Inspirobot.me. 
-Just message "$reasons" to receive your reason to keep on keeping on.
+Just message "$inspire" to receive your reason to keep on keeping on.
 '''
 
 import discord
@@ -20,7 +20,7 @@ async def on_ready():
 
 
 @bot.command()
-async def reason(ctx):
+async def inspire(ctx):
 
     # sends GET request to Inspirobot for image url response
     try:
@@ -37,7 +37,7 @@ async def reason(ctx):
 
 @bot.command()
 async def info(ctx):
-    embed = discord.Embed(title='reasons', description='Be inspired.',
+    embed = discord.Embed(title='Reasons', description='Be inspired.',
                           color=0xeee657)
     
     # give info about you here
@@ -58,9 +58,9 @@ bot.remove_command('help')
 
 @bot.command()
 async def help(ctx):
-    embed = discord.Embed(title='reasons', description='Be inspired.' + 
+    embed = discord.Embed(title='Reasons', description='Be inspired.' + 
                           ' List of commands are:', color=0xeee657)
-    embed.add_field(name='$reason', value='Returns an AI generated' + 
+    embed.add_field(name='$inspire', value='Returns an AI generated' + 
                     ' macro from Inspirobot.me', inline=False)
     embed.add_field(name='$info', value='Gives a little info about the bot',
                     inline=False)

@@ -5,7 +5,7 @@ Discord bot to display unique image macros from Inspirobot.me <br />
 Python 3.x and PIP
 ```
 pip install requests
-pip install -U https://github.com/Rapptz/discord.py/archive/rewrite.zip
+pip install -U discord.py
 ```
 
 ## Installation

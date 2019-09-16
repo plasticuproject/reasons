@@ -24,4 +24,4 @@ To add bot to server add your CLIENT_ID to this URL and visit in browser:  <br /
 
 ## Usage
 When bot is active in server, just type "$inspire". <br />
-or type "xmas" for a Christmas themed message.
+or type "$xmas" for a Christmas themed message.

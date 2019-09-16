@@ -36,6 +36,22 @@ async def inspire(ctx):
 
 
 @bot.command()
+async def xmas(ctx):
+
+    # sends GET request to Inspirobot for image url response
+    try:
+        url = 'http://inspirobot.me/api?generate=true&season=xmas'
+        params = {'generate' : 'true'}
+        response = requests.get(url, params, timeout=10)
+        image = response.text
+        await ctx.send(image)
+        
+    except RequestException:
+        
+        await ctx.send('Inspirobot is broken, there is no reason to live.')
+
+
+@bot.command()
 async def info(ctx):
     embed = discord.Embed(title='Reasons', description='Be inspired.',
                           color=0xeee657)
@@ -62,6 +78,8 @@ async def help(ctx):
                           ' List of commands are:', color=0xeee657)
     embed.add_field(name='$inspire', value='Returns an AI generated' + 
                     ' macro from Inspirobot.me', inline=False)
+    embed.add_field(name='$xmas', value='Returns an AI generated' + 
+                    ' Christmas themed macro from Inspirobot.me', inline=False)
     embed.add_field(name='$info', value='Gives a little info about the bot',
                     inline=False)
     embed.add_field(name='$help', value='Gives this message', inline=False)

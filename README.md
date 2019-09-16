@@ -23,4 +23,5 @@ To add bot to server add your CLIENT_ID to this URL and visit in browser:  <br /
 "https://discordapp.com/oauth2/authorize?client_id=<YOUR_BOT_CLIENT_ID_GOES_HERE>&scope=bot" <br />
 
 ## Usage
-When bot is active in server, just type "$inspire".
+When bot is active in server, just type "$inspire". <br />
+or type "xmas" for a Christmas themed message.

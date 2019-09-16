@@ -1,4 +1,8 @@
 '''
+MIT License
+Copyright (C) 2019 plasticuproject.pm.me
+https://github.com/plasticuproject/reasons
+
 This bot returns an AI generated macro from Inspirobot.me. 
 Just message "$inspire" to receive your reason to keep on keeping on.
 '''
